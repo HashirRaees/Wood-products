@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "KyivType Sans";
-  src: url("/font/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ Medium-.otf")
+  src: url("./font/Dmitry Rastvortsev - KyivType Sans Medium-.otf")
     format("opentype");
   font-weight: 500;
   font-style: normal;
@@ -79,7 +79,12 @@ body {
   color: white;
   font-size: 20px;
   cursor: pointer;
+  transition: 0.3s;
   margin-left: 28px;
+}
+.button2:hover {
+  cursor: pointer;
+  background-color: #5d6f8a;
 }
 .button1 {
   display: none;
@@ -260,10 +265,15 @@ body {
   width: 472px;
   background-color: #728bad;
   color: white;
+  transition: 0.3s;
   font-size: 24px;
   font-weight: 600;
   border-radius: 30px;
   border: none;
+}
+.adv-btn button:hover {
+  cursor: pointer;
+  background-color: #5d6f8a;
 }
 .about-us {
   height: 640px;
@@ -388,8 +398,13 @@ body {
   width: 180px;
   background-color: #728bad;
   color: white;
-  border-radius: 20px;
+  border-radius: 30px;
+  transition: 0.3s;
   border: none;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #5d6f8a;
 }
 footer {
   height: 250px;
@@ -423,6 +438,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -150px;
 }
 .inner-contact {
   height: 500px;
@@ -445,9 +461,9 @@ footer {
   color: white;
   text-transform: uppercase;
 }
-.right-map{
-    height: 100%;
-    width: 40%;
+.right-map {
+  height: 100%;
+  width: 40%;
 }
 @media screen and (max-width: 600px) and (min-width: 340px) {
   .navbar img {
@@ -517,9 +533,14 @@ footer {
     width: 86px;
     background-color: #728bad;
     color: white;
+    transition: 0.3s;
     border-radius: 20px;
     border: none;
     font-size: 13px;
+  }
+  .button1:hover {
+    cursor: pointer;
+    background-color: #5d6f8a;
   }
   .button2 {
     display: none;
@@ -540,14 +561,14 @@ footer {
     width: 90px;
     position: absolute;
     left: 80px;
-    top: 380px;
+    top: 390px;
   }
   .image-1 {
     height: 90px;
     width: 90px;
     position: absolute;
     right: 50px;
-    top: 450px;
+    top: 490px;
   }
   .work {
     height: 700px;
@@ -746,7 +767,7 @@ footer {
     margin-bottom: -100px;
   }
   .inner-contact {
-    height:450px;
+    height: 450px;
     width: 90%;
     padding-top: 20px;
     flex-direction: column;
@@ -761,12 +782,25 @@ footer {
   .left-con h1 {
     font-size: 40px;
   }
-  .right-map{
+  .right-map {
     height: 40%;
     width: 100%;
   }
-  .right-map img{
+  .right-map img {
     height: 230px;
     width: 320px;
+  }
+  .price {
+    margin-top: -80px;
+    margin-bottom: 80px;
+  }
+  .gall {
+    margin-top: -80px;
+  }
+  .gall2 {
+    margin-top: -300px;
+  }
+  .abt {
+    margin-top: 80px;
   }
 }
