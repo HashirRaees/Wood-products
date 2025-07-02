@@ -15,7 +15,7 @@
   font-family: "Inter";
 }
 body {
-  background-color: rgb(31, 30, 30) !important;
+  background: #222021 url(./assets/main_bg.svg) no-repeat 0 0 / cover !important;
 }
 .container-fluid {
   width: 90% !important;
